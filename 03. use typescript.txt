@@ -1,0 +1,10 @@
+สร้างไฟล์ TypeScript
+- เช่น server.ts 
+
+แปลง TypeScript เป็น JavaScript
+- เช่น tsc server.ts (TypeScript Compiler)
+- เมื่อแปลงเสร็จจะได้ไฟล์ server.js ขึ้นมาเวลา run ก็รันไฟล์ server.js
+
+สร้าง project typescript โดยใช้คำสั่ง
+- tsc --init 
+- เมื่อสร้างเสร็จจะได้ไฟล์ tsconfig.json มา

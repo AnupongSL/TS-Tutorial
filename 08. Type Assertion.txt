@@ -1,0 +1,14 @@
+Type Assertion คืออะไร 
+- กระบวนการระบุชนิดข้อมูลด้วยตนเอง ซึ่งสามารถระบุได้ 2 รูปแบบ ดังนี้
+- 1. as 
+- 2. <ชนิดข้อมูล> เช่น <number>
+
+ตัวอย่างการใช้งาน as 
+let username: unknown;
+username = "anupong"
+(username as string).toUpperCase()
+
+ตัวอย่างการใช้งาน <ชนิดข้อมูล> 
+let username: unknown;
+username = "anupong"
+(<string>username).toUpperCase()

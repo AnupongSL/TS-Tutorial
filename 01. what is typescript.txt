@@ -1,0 +1,26 @@
+ทำไมต้องใช้ TypeScript
+- 1. TypeScript เป็น Superset ของ JavaScript
+- 2. TypeScript Compile ก่อนใช้งาน
+- 3. TypeScript เป็น Static Type
+
+- 1. TypeScript เป็น Superset ของ JavaScript
+    หมายถึงสามารถใช้ได้ทุกฟีเจอร์ใหม่ๆของ JavaScript
+    JavaScript ทำอะไรได้ TypeScript ก็ทำได้เหมือนกัน
+
+- 2. TypeScript Compile ก่อนใช้งาน
+    ถ้าใช้งาน JavaScript จะไม่รู้เลยว่า code ทำงานถูกต้องหรือไม่ จนกว่าจะนำโปรแกรมไปรันบน Browser
+    แต่ TypeScript จะ Compile เพื่อตรวจสอบข้อผิดพลาดที่อาจเกิดขึ้นก่อนที่จะรันโปรแกรม
+    ทำให้ทราบได้ว่าโปรแกรมของเรานั้นทำงานผิดพลาดตรงจุดใด
+
+- 3. TypeScript เป็น Static Type
+    TypeScript สามารถกำหนดชนิดหรือประเภทข้อมูลลงในตัวแปรได้
+
+ในการใช้งาน TypeScript เราต้องการผลลัพธ์สุดท้ายเป็น JavaScript เนื่องจาก Browser เข้าใจแค่ JavaScript
+ดังนั้น เราต้องเขียนโปรแกรมด้วย TypeScript ก่อนและ Compile เพื่อแปลง code ดังกล่าวให้เป็น JavaScript
+จากนั้นนำผลลัพธ์ที่ได้จากการแปลงไปทำงานบน Browser
+
+ติดตั้ง TypeScript
+- npm i -g typescript
+
+ตรวจสอบ version
+- tsc -v 
